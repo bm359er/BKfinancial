@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mortgages & Debt Strategy | Brandon Kirby, MBA</title>
+    <style>
+        :root {
+            --primary: #0f2b46;
+            --secondary: #1d4ed8;
+            --text-dark: #1f2937;
+            --text-light: #f9fafb;
+            --bg-light: #f3f4f6;
+            --accent: #059669;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            color: var(--text-dark);
+            line-height: 1.6;
+            background-color: #ffffff;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: var(--primary);
+            color: var(--text-light);
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        nav .logo a {
+            color: var(--text-light);
+            text-decoration: none;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+
+        nav ul li {
+            margin-left: 2rem;
+        }
+
+        nav ul li a {
+            color: var(--text-light);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #93c5fd;
+        }
+
+        /* Header Sub-Hero */
+        .sub-hero {
+            background: linear-gradient(rgba(15, 43, 70, 0.95), rgba(15, 43, 70, 0.85)), url('https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1950&q=80') no-repeat center center/cover;
+            color: var(--text-light);
+            padding: 5rem 2rem;
+            text-align: center;
+        }
+
+        .sub-hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .sub-hero p {
+            font-size: 1.15rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Breadcrumb / Back Link */
+        .back-link-container {
+            max-width: 1100px;
+            margin: 2rem auto 0 auto;
+            padding: 0 2rem;
+        }
+
+        .back-link {
+            color: var(--secondary);
+            text-decoration: none;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            color: var(--primary);
+            text-decoration: underline;
+        }
+
+        /* Content Layout */
+        .content-section {
+            padding: 2rem 2rem 5rem 2rem;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .intro-text {
+            font-size: 1.15rem;
+            color: #4b5563;
+            margin-bottom: 3rem;
+            max-width: 900px;
+        }
+
+        /* Solution Pillars Layout */
+        .pillar-row {
+            display: block;
+            margin-bottom: 4rem;
+        }
+
+        .pillar-card {
+            background: var(--bg-light);
+            border-left: 5px solid var(--accent);
+            padding: 2.5rem;
+            border-radius: 0 8px 8px 0;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.03);
+            margin-bottom: 2.5rem;
+        }
+
+        .pillar-card h2 {
+            color: var(--primary);
+            font-size: 1.75rem;
+            margin-bottom: 1rem;
+        }
+
+        .pillar-card h3 {
+            color: var(--secondary);
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .pillar-card p {
+            font-size: 1.05rem;
+            color: #374151;
+            margin-bottom: 1.5rem;
+        }
+
+        .pillar-card ul {
+            list-style-type: square;
+            padding-left: 1.5rem;
+        }
+
+        .pillar-card li {
+            font-size: 1.05rem;
+            margin-bottom: 0.75rem;
+            color: #1f2937;
+        }
+
+        /* Focus Quote Box */
+        .framework-box {
+            background-color: var(--primary);
+            color: var(--text-light);
+            padding: 3rem;
+            border-radius: 8px;
+            margin-top: 5rem;
+            text-align: center;
+        }
+
+        .framework-box h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: #60a5fa;
+        }
+
+        .framework-box p {
+            max-width: 800px;
+            margin: 0 auto;
+            font-size: 1.1rem;
+            line-height: 1.7;
+        }
+
+        /* Contact Section Accent */
+        .cta-bar {
+            text-align: center;
+            padding: 4rem 2rem;
+            background: var(--bg-light);
+            border-top: 1px solid #e5e7eb;
+            margin-top: 4rem;
+        }
+
+        .cta-bar h2 {
+            color: var(--primary);
+            margin-bottom: 1rem;
+        }
+
+        .cta-btn {
+            display: inline-block;
+            background-color: var(--accent);
+            color: var(--text-light);
+            text-decoration: none;
+            padding: 0.8rem 2rem;
+            border-radius: 4px;
+            font-weight: bold;
+            margin-top: 1.5rem;
+            transition: background-color 0.3s;
+        }
+
+        .cta-btn:hover {
+            background-color: #047857;
+        }
+
+        footer {
+            background-color: #0b1f33;
+            color: #9ca3af;
+            text-align: center;
+            padding: 1.5rem;
+            font-size: 0.85rem;
+        }
+
+        @media (max-width: 768px) {
+            nav { flex-direction: column; }
+            nav ul { margin-top: 1rem; }
+            .sub-hero h1 { font-size: 2rem; }
+            .pillar-card { padding: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="logo"><a href="index.html">BRANDON KIRBY, MBA</a></div>
+        <ul>
+            <li><a href="index.html#services">Services</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header class="sub-hero">
+        <h1>Strategic Mortgages & Debt Consolidation</h1>
+        <p>Analyzing lending architecture through a structural framework to align liabilities with long-term capital preservation goals.</p>
+    </header>
+
+    <div class="back-link-container">
+        <a href="index.html" class="back-link">← Back to Main Page</a>
+    </div>
+
+    <main class="content-section">
+        <p class="intro-text">
+            In modern macroeconomic environments, debt is not merely a liability—it is a variable that directly influences your net tax efficiency, investment capacity, and vulnerability to market fluctuations. Backed by over 22 years of personal banking and corporate compliance data expertise, I map out specialized options to ensure your home financing functions synchronously with your wealth strategy.
+        </p>
+
+        <div class="pillar-row">
+            
+            <div class="pillar-card">
+                <h3>Acquisition Framework</h3>
+                <h2>New Home Purchase Expertise</h2>
+                <p>Purchasing property in shifting economic cycles demands a precise alignment of variables before committing capital. Beyond matching structural options, my framework focuses on stress-testing your purchase criteria against interest rate trajectory scenarios.</p>
+                <ul>
+                    <li><strong>Proactive Pre-Approvals:</strong> Establishing rigid, quantitative ceiling constraints to secure priority property entry with strategic negotiation leverage.</li>
+                    <li><strong>Rate-Type Optimization:</strong> Data-driven comparative analysis mapping out the logical structural trade-offs between Fixed and Variable terms based on macroeconomic data.</li>
+                    <li><strong>Down-Payment Strategy:</strong> Structuring the deployment of liquid wealth, utilizing corporate tax structures or registered plans (like the First Home Savings Account - FHSA) efficiently.</li>
+                </ul>
+            </div>
+
+            <div class="pillar-card">
+                <h3>Equity Optimization</h3>
+                <h2>Strategic Refinancing Advantages</h2>
+                <p>For established Canadian homeowners, trapped real estate equity represents unutilized structural leverage. Refinancing isn't just about breaking a contract; it is a mathematical calculation to optimize your balance sheet.</p>
+                <ul>
+                    <li><strong>Capital Extraction:</strong> Safely releasing equity up to regulatory limits to fund standard-setting home improvements, diversify private investments, or accumulate real assets.</li>
+                    <li><strong>Prepayment Penalty Calculations:</strong> Assessing the structural friction of prepayment penalties versus the mathematical yield of a lower interest rate layout.</li>
+                    <li><strong>Amortization Restructuring:</strong> Intentionally resetting terms to free up immediate monthly cash flow or modifying structures to systematically pay down principal ahead of schedule.</li>
+                </ul>
+            </div>
+
+            <div class="pillar-card">
+                <h3>Risk & Friction Mitigation</h3>
+                <h2>Structured Debt Consolidation Planning</h2>
+                <p>High-interest consumer debt serves as an economic friction point, compounding risk and eroding savings velocity. By leveraging your primary residential asset, we restructure high-frictional liabilities into optimized corporate-rate structures.</p>
+                <ul>
+                    <li><strong>Amortizing Inefficiencies:</strong> Blending unsecured credit cards, personal lines of credit, or auto loans into a single, low-interest mortgage line.</li>
+                    <li><strong>Cash Flow Reclamation:</strong> Drastically lowering net monthly obligations, redirecting the preserved cash flow toward high-yield investment allocations (RRSP, TFSA, or structural capital).</li>
+                    <li><strong>Credit Score Architecture:</strong> Eliminating structural utilization limits on revolving debt, systematically repairing and insulating your personal credit score profile.</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="framework-box">
+            <h3>A Structural Approach to Leverage</h3>
+            <p>"Debt management must not operate in isolation. True liability efficiency occurs when every real estate contract, borrowing agreement, and amortizing schedule is designed explicitly to protect the portfolio from structural market risks and optimize net tax exposure."</p>
+        </div>
+    </main>
+
+    <div class="cta-bar">
+        <h2>Ready to Stress-Test Your Current Strategy?</h2>
+        <p>Let's evaluate your existing mortgage term structure or debt allocation against current economic metrics.</p>
+        <a href="index.html#contact" class="cta-btn">Book an Advisory Session</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Brandon Kirby. All Rights Reserved.</p>
+        <p style="font-size: 0.75rem; margin-top: 0.5rem; color: #6b7280;">Disclaimer: Specific mortgage advice, credit structuring, and product access are subjected to regional licensing rules, underwriting criteria, and relevant Canadian lending guidelines.</p>
+    </footer>
+
+</body>
+</html>
