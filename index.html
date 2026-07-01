@@ -113,7 +113,7 @@
         /* Services Grid */
         .services-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-template-columns: repeat(3, 1fr);
             gap: 2rem;
         }
 
@@ -151,6 +151,15 @@
 
         .service-card li {
             margin-bottom: 0.5rem;
+        }
+
+        /* Class to center the remaining two cards on desktop screens */
+        .center-last-row {
+            grid-column: span 1;
+        }
+        
+        .services-grid .service-card:nth-last-child(2) {
+            grid-column: 2 / span 1;
         }
 
         .btn-link {
@@ -251,6 +260,16 @@
             font-size: 0.85rem;
         }
 
+        /* Responsive Breakpoints */
+        @media (max-width: 1024px) {
+            .services-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .services-grid .service-card:nth-last-child(2) {
+                grid-column: auto;
+            }
+        }
+
         @media (max-width: 900px) {
             .about-container {
                 grid-template-columns: 1fr;
@@ -269,6 +288,9 @@
             nav ul { margin-top: 1rem; }
             .hero h1 { font-size: 2.25rem; }
             .stats-banner { flex-direction: column; text-align: center; gap: 0.5rem; }
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
         }
     </style>
 </head>
@@ -332,20 +354,7 @@
                 </div>
             </div>
 
-            <div class="service-card mandate-card">
-                <div>
-                    <h3>Mortgages & Debt Strategy</h3>
-                    <p style="margin-bottom: 1rem; color: #4b5563;">Navigating complex lending options to optimize debt structure and leverage equity effectively.</p>
-                    <ul>
-                        <li>New Home Purchases & Pre-Approvals</li>
-                        <li>Mortgage Refinancing & Equity Takeouts</li>
-                        <li>Strategic Debt Consolidation Planning</li>
-                    </ul>
-                </div>
-                <a href="debt-solutions.html" class="btn-link">View Strategy Details</a>
-            </div>
-
-            <div class="service-card mandate-card">
+            <div class="service-card mandate-card center-last-row">
                 <div>
                     <h3>Canada First Investing</h3>
                     <p style="margin-bottom: 1rem; color: #4b5563;">Domestic wealth growth focusing on resilient national infrastructure, resource sectors, and robust Canadian corporate tax leaders.</p>
@@ -358,7 +367,7 @@
                 <a href="canada-first.html" class="btn-link">View Strategy Details</a>
             </div>
 
-            <div class="service-card mandate-card">
+            <div class="service-card mandate-card center-last-row">
                 <div>
                     <h3>Green Tech Investing</h3>
                     <p style="margin-bottom: 1rem; color: #4b5563;">Positioning capital directly into standard-setting clean-energy infrastructure, grid transformation, and resource efficiency.</p>
