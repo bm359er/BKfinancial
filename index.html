@@ -110,11 +110,12 @@
             border-radius: 2px;
         }
 
-        /* Services Grid */
+        /* Services Flex Grid - Adjusted to perfectly center uneven items */
         .services-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
+            display: flex;
+            flex-wrap: wrap;
             gap: 2rem;
+            justify-content: center;
         }
 
         .service-card {
@@ -127,6 +128,10 @@
             flex-direction: column;
             justify-content: space-between;
             transition: transform 0.3s;
+            /* Computes out to a stable 3-column layout sizing accounting for gaps */
+            flex: 1 1 calc(33.333% - 1.34rem);
+            min-width: 300px;
+            max-width: calc(33.333% - 1.34rem);
         }
 
         .service-card.mandate-card {
@@ -151,15 +156,6 @@
 
         .service-card li {
             margin-bottom: 0.5rem;
-        }
-
-        /* Class to center the remaining two cards on desktop screens */
-        .center-last-row {
-            grid-column: span 1;
-        }
-        
-        .services-grid .service-card:nth-last-child(2) {
-            grid-column: 2 / span 1;
         }
 
         .btn-link {
@@ -262,11 +258,9 @@
 
         /* Responsive Breakpoints */
         @media (max-width: 1024px) {
-            .services-grid {
-                grid-template-columns: repeat(2, 1fr);
-            }
-            .services-grid .service-card:nth-last-child(2) {
-                grid-column: auto;
+            .service-card {
+                flex: 1 1 calc(50% - 1rem);
+                max-width: calc(50% - 1rem);
             }
         }
 
@@ -288,8 +282,9 @@
             nav ul { margin-top: 1rem; }
             .hero h1 { font-size: 2.25rem; }
             .stats-banner { flex-direction: column; text-align: center; gap: 0.5rem; }
-            .services-grid {
-                grid-template-columns: 1fr;
+            .service-card {
+                flex: 1 1 100%;
+                max-width: 100%;
             }
         }
     </style>
@@ -354,7 +349,7 @@
                 </div>
             </div>
 
-            <div class="service-card mandate-card center-last-row">
+            <div class="service-card mandate-card">
                 <div>
                     <h3>Canada First Investing</h3>
                     <p style="margin-bottom: 1rem; color: #4b5563;">Domestic wealth growth focusing on resilient national infrastructure, resource sectors, and robust Canadian corporate tax leaders.</p>
@@ -367,7 +362,7 @@
                 <a href="canada-first.html" class="btn-link">View Strategy Details</a>
             </div>
 
-            <div class="service-card mandate-card center-last-row">
+            <div class="service-card mandate-card">
                 <div>
                     <h3>Green Tech Investing</h3>
                     <p style="margin-bottom: 1rem; color: #4b5563;">Positioning capital directly into standard-setting clean-energy infrastructure, grid transformation, and resource efficiency.</p>
