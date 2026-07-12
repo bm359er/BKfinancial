@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understanding the Trajectory of Structural Inflation | Brandon's Blog</title>
+    <style>
+        :root {
+            --primary: #0f2b46;
+            --secondary: #1d4ed8;
+            --text-dark: #1f2937;
+            --text-light: #f9fafb;
+            --bg-light: #f3f4f6;
+            --accent: #059669;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            color: var(--text-dark);
+            line-height: 1.6;
+            background-color: #ffffff;
+        }
+
+        /* Navigation - Kept identical to your main site layout */
+        nav {
+            background-color: var(--primary);
+            color: var(--text-light);
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+
+        nav ul li {
+            margin-left: 2rem;
+        }
+
+        nav ul li a {
+            color: var(--text-light);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #93c5fd;
+        }
+
+        /* Article Structure */
+        .article-container {
+            max-width: 800px;
+            margin: 4rem auto;
+            padding: 0 2rem;
+        }
+
+        .back-link {
+            display: inline-block;
+            color: var(--secondary);
+            text-decoration: none;
+            font-weight: 500;
+            margin-bottom: 2rem;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+            color: var(--primary);
+        }
+
+        .article-header {
+            margin-bottom: 2.5rem;
+            border-bottom: 2px solid var(--bg-light);
+            padding-bottom: 1.5rem;
+        }
+
+        .article-header h1 {
+            color: var(--primary);
+            font-size: 2.75rem;
+            line-height: 1.2;
+            margin-bottom: 0.75rem;
+        }
+
+        .article-meta {
+            color: #6b7280;
+            font-size: 0.95rem;
+        }
+
+        /* Body Copy Typography Styles */
+        .article-content p {
+            font-size: 1.1rem;
+            color: #374151;
+            margin-bottom: 1.5rem;
+            text-align: justify;
+        }
+
+        .article-content h2 {
+            color: var(--primary);
+            font-size: 1.75rem;
+            margin: 2.5rem 0 1rem 0;
+        }
+
+        .article-content blockquote {
+            background-color: var(--bg-light);
+            border-left: 4px solid var(--secondary);
+            padding: 1rem 1.5rem;
+            margin: 2rem 0;
+            font-style: italic;
+            color: #4b5563;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #0b1f33;
+            color: #9ca3af;
+            text-align: center;
+            padding: 1.5rem;
+            font-size: 0.85rem;
+            margin-top: 8rem;
+        }
+
+        /* Responsive Breakpoints */
+        @media (max-width: 768px) {
+            nav { flex-direction: column; }
+            nav ul { margin-top: 1rem; }
+            .article-header h1 { font-size: 2.25rem; }
+            .article-container { margin: 2rem auto; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Main Navigation Header -->
+    <nav>
+        <div class="logo">BRANDON KIRBY, MBA</div>
+        <ul>
+            <li><a href="blog.html">Brandon's Blog</a></li>
+            <li><a href="index.html#services">Services</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content Container -->
+    <main class="article-container">
+        
+        <a href="blog.html" class="back-link">← Back to Blog</a>
+
+        <header class="article-header">
+            <h1> Random Header</h1>
+            <div class="article-meta">Published: July 2026 | Category: Macroeconomics</div>
+        </header>
+
+        <div class="article-content">
+            <!-- ========================================================
+                 ARTICLE TEXT DRAFT ZONE
+                 Paste or manually write your paragraph blocks below.
+                 ======================================================== -->
+            
+            <p>This is your introductory paragraph text. You can replace this entirely with your content. It uses a crisp, professional text-dark alignment that matches your front page perfectly.</p>
+
+            <h2>Analyzing Shifting Macro Frameworks</h2>
+            
+            <p>This is where you can write your second section. Below is an example of a structural highlight blockquote callout for deep analytical takeaways:</p>
+
+            <blockquote>
+                "An asset strategy that fails to baseline long-term structural supply line disruptions is simply running blind against modern currency degradation metrics."
+            </blockquote>
+
+            <p>Conclude your thoughts or insert final analysis parameters right here.</p>
+
+            <!-- ========================================================
+                 END OF ARTICLE TEXT DRAFT ZONE
+                 ======================================================== -->
+        </div>
+
+    </main>
+
+    <!-- Universal Footer -->
+    <footer>
+        <p>&copy; 2026 Brandon Kirby. All Rights Reserved.</p>
+        <p style="font-size: 0.75rem; margin-top: 0.5rem; color: #6b7280;">Disclaimer: Licensing credentials via IFIC and LLQP framework. Specific financial strategies and product availabilities are subject to provincial regulatory guidelines.</p>
+    </footer>
+
+</body>
+</html>
