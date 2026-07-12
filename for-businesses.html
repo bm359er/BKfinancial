@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <!-- Facebook / LinkedIn / Standard Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://brandonkirbyfinancial.com/for-business.html">
+    <meta property="og:title" content="Brandon Kirby | Corporate & Business Financial Services">
+    <meta property="og:description" content="Group retirement pension frameworks and robust corporate benefit architectures built for business optimization.">
+    <meta property="og:image" content="https://raw.githubusercontent.com/bm359er/BKfinancial/main/Index-logo.png">
+    <meta property="og:image:secure_url" content="https://raw.githubusercontent.com/bm359er/BKfinancial/main/Index-logo.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    <!-- X (formerly Twitter) Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://brandonkirbyfinancial.com/for-business.html">
+    <meta name="twitter:title" content="Brandon Kirby | Corporate & Business Financial Services">
+    <meta name="twitter:description" content="Group retirement pension frameworks and robust corporate benefit architectures built for business optimization.">
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/bm359er/BKFinancial/main/images/Index-logo.png">
+
+    <!-- Professional Attribution for LinkedIn -->
+    <meta name="author" content="Brandon Kirby, MBA">
+        
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Businesses | Brandon Kirby, MBA</title>
+    <style>
+        :root {
+            --primary: #0f2b46;
+            --secondary: #1d4ed8;
+            --text-dark: #1f2937;
+            --text-light: #f9fafb;
+            --bg-light: #f3f4f6;
+            --accent: #059669;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            color: var(--text-dark);
+            line-height: 1.6;
+            background-color: #ffffff;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: var(--primary);
+            color: var(--text-light);
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        nav .logo a {
+            color: var(--text-light);
+            text-decoration: none;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+
+        nav ul li {
+            margin-left: 2rem;
+        }
+
+        nav ul li a {
+            color: var(--text-light);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #93c5fd;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(15, 43, 70, 0.95), rgba(15, 43, 70, 0.85)), url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1950&q=80') no-repeat center center/cover;
+            color: var(--text-light);
+            padding: 6rem 2rem;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 2.75rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Content Layout */
+        section {
+            padding: 5rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .intro-text {
+            font-size: 1.15rem;
+            color: #374151;
+            text-align: center;
+            max-width: 900px;
+            margin: 0 auto 4rem auto;
+            line-height: 1.8;
+        }
+
+        /* Strategy Grid Setup */
+        .strategy-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2.5rem;
+            justify-content: center;
+        }
+
+        .strategy-card {
+            background: var(--bg-light);
+            padding: 3rem;
+            border-radius: 8px;
+            border-top: 5px solid var(--accent);
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            flex: 1 1 calc(50% - 1.25rem);
+            min-width: 320px;
+            max-width: calc(50% - 1.25rem);
+        }
+
+        .strategy-card h2 {
+            color: var(--primary);
+            margin-bottom: 1.25rem;
+            font-size: 1.75rem;
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 0.5rem;
+        }
+
+        .strategy-card p {
+            margin-bottom: 1.5rem;
+            color: #4b5563;
+            font-size: 1.05rem;
+        }
+
+        .strategy-card ul {
+            list-style-type: square;
+            padding-left: 1.5rem;
+        }
+
+        .strategy-card li {
+            margin-bottom: 0.75rem;
+            font-size: 1.05rem;
+            color: #1f2937;
+        }
+
+        .back-container {
+            text-align: center;
+            margin-top: 4rem;
+        }
+
+        .btn-back {
+            display: inline-block;
+            background-color: var(--primary);
+            color: var(--text-light);
+            text-decoration: none;
+            padding: 0.8rem 2rem;
+            border-radius: 4px;
+            font-weight: 500;
+            transition: background-color 0.3s;
+        }
+
+        .btn-back:hover {
+            background-color: var(--secondary);
+        }
+
+        /* Contact Footer Hook */
+        .contact-info {
+            text-align: center;
+            background-color: var(--primary);
+            color: var(--text-light);
+            padding: 4rem 2rem;
+        }
+
+        .contact-info p {
+            margin-bottom: 0.5rem;
+        }
+
+        footer {
+            background-color: #0b1f33;
+            color: #9ca3af;
+            text-align: center;
+            padding: 1.5rem;
+            font-size: 0.85rem;
+        }
+
+        /* Responsive Breakpoints */
+        @media (max-width: 768px) {
+            nav { flex-direction: column; }
+            nav ul { margin-top: 1rem; }
+            .hero h1 { font-size: 2rem; }
+            .strategy-card {
+                flex: 1 1 100%;
+                max-width: 100%;
+                padding: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <div class="logo"><a href="index.html">BRANDON KIRBY, MBA</a></div>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="/blog.html">Brandon's Blog</a></li>
+        <li><a href="index.html#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+    <header class="hero">
+        <h1>Corporate & Business Financial Architecture</h1>
+        <p>Structuring robust frameworks to maximize enterprise tax efficiency, preserve institutional capital, and safeguard human assets.</p>
+    </header>
+
+    <section>
+        <p class="intro-text">
+            In modern corporate operations, employee retention and tactical fiscal planning are directly tied to competitive alignment. By integrating rigorous data analytics and structuring customized risk-mitigation portfolios, we deliver distinct institutional tailwinds designed for small to medium-sized businesses across Canada.
+        </p>
+
+        <div class="strategy-grid">
+            
+            <!-- Section 1: Pension Funds -->
+            <div class="strategy-card">
+                <h2>Pension Funds & Retirement</h2>
+                <p>Establishing highly competitive capital accumulation and corporate savings programs tailored to align with business-specific structures.</p>
+                <ul>
+                    <li><strong>Group RRSPs:</strong> Tax-deductible contributions that support employee-centric wealth creation while minimizing corporate burden.</li>
+                    <li><strong>Deferred Profit-Sharing Plans (DPSPs):</strong> Incentivize workforce productivity by directly linking performance metrics to vested retirement capital.</li>
+                    <li><strong>Compliance & Governance Frameworks:</strong> Structuring plans that balance corporate cash-flow realities with long-term capital preservation guidelines.</li>
+                </ul>
+            </div>
+
+            <!-- Section 2: Group Benefits -->
+            <div class="strategy-card">
+                <h2>Group Insurance & Benefits</h2>
+                <p>Constructing multi-tier protection architectures aimed at sheltering your workforce from lifestyle and health interruptions.</p>
+                <ul>
+                    <li><strong>Group Life Insurance:</strong> Essential foundational security providing solid economic indemnities to dependents and beneficiaries.</li>
+                    <li><strong>Critical Illness Coverage:</strong> Strategic corporate insulation ensuring lump-sum liquidity is available when dealing with complex diagnoses.</li>
+                    <li><strong>Comprehensive Extended Health:</strong> Fully tailored health, dental, and pharmaceutical packages designed to optimize structural operational wellness.</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="back-container">
+            <a href="index.html" class="btn-back">← Back to Main Services</a>
+        </div>
+    </section>
+
+    <div id="contact" class="contact-info">
+        <h2 style="margin-bottom: 1.5rem;">Align Your Business Architecture</h2>
+        <p style="font-size: 1.2rem; font-weight: bold; margin-bottom: 1rem;">Brandon Kirby, MBA</p>
+        <p>Fredericton, New Brunswick, Canada</p>
+        <p>Email: brandonkirby@plumefinancial.ca</p>
+        <p>Phone: 506-406-6101</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Brandon Kirby. All Rights Reserved.</p>
+        <p style="font-size: 0.75rem; margin-top: 0.5rem; color: #6b7280;">Disclaimer: Licensing credentials via IFIC and LLQP framework. Specific financial strategies and product availabilities are subject to provincial regulatory guidelines.</p>
+    </footer>
+
+</body>
+</html>
