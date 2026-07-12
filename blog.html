@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brandon's Blog | Macro Insights & Finance</title>
+    <style>
+        :root {
+            --primary: #0f2b46;
+            --secondary: #1d4ed8;
+            --text-dark: #1f2937;
+            --text-light: #f9fafb;
+            --bg-light: #f3f4f6;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { color: var(--text-dark); line-height: 1.6; background-color: #ffffff; }
+        
+        nav {
+            background-color: var(--primary);
+            color: var(--text-light);
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav .logo { font-size: 1.5rem; font-weight: bold; letter-spacing: 1px; }
+        nav ul { display: flex; list-style: none; }
+        nav ul li { margin-left: 2rem; }
+        nav ul li a { color: var(--text-light); text-decoration: none; font-weight: 500; transition: color 0.3s; }
+        nav ul li a:hover { color: #93c5fd; }
+
+        .blog-container { max-width: 800px; margin: 4rem auto; padding: 0 2rem; }
+        .blog-header { margin-bottom: 3rem; border-bottom: 2px solid var(--bg-light); padding-bottom: 1rem; }
+        .blog-header h1 { color: var(--primary); font-size: 2.5rem; }
+        
+        .post-preview { margin-bottom: 3rem; }
+        .post-title { color: var(--primary); text-decoration: none; font-size: 1.75rem; font-weight: bold; }
+        .post-title:hover { color: var(--secondary); }
+        .post-meta { color: #6b7280; font-size: 0.875rem; margin: 0.5rem 0 1rem 0; }
+        
+        footer { background-color: #0b1f33; color: #9ca3af; text-align: center; padding: 1.5rem; font-size: 0.85rem; margin-top: 8rem; }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">BRANDON KIRBY, MBA</div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#services">Services</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="blog-container">
+        <div class="blog-header">
+            <h1>Brandon's Blog</h1>
+            <p>Macroeconomic commentary, wealth protection strategies, and financial analysis.</p>
+        </div>
+
+        <!-- Placeholder for your first post -->
+        <article class="post-preview">
+            <h2><a class="post-title" href="#">Navigating Structural Inflation in the Modern Economy</a></h2>
+            <div class="post-meta">Published: July 2026 | Category: Macro Strategy</div>
+            <p>An analytical look at long-term purchasing power defense and how shifting economic indicators impact domestic portfolios...</p>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Brandon Kirby. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
