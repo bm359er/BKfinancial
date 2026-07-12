@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understanding the Trajectory of Structural Inflation | Brandon's Blog</title>
+    <style>
+        :root {
+            --primary: #0f2b46;
+            --secondary: #1d4ed8;
+            --text-dark: #1f2937;
+            --text-light: #f9fafb;
+            --bg-light: #f3f4f6;
+            --accent: #059669;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            color: var(--text-dark);
+            line-height: 1.6;
+            background-color: #ffffff;
+        }
+
+        /* Navigation - Kept identical to your main site layout */
+        nav {
+            background-color: var(--primary);
+            color: var(--text-light);
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+
+        nav ul li {
+            margin-left: 2rem;
+        }
+
+        nav ul li a {
+            color: var(--text-light);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #93c5fd;
+        }
+
+        /* Article Structure */
+        .article-container {
+            max-width: 800px;
+            margin: 4rem auto;
+            padding: 0 2rem;
+        }
+
+        .back-link {
+            display: inline-block;
+            color: var(--secondary);
+            text-decoration: none;
+            font-weight: 500;
+            margin-bottom: 2rem;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+            color: var(--primary);
+        }
+
+        .article-header {
+            margin-bottom: 2.5rem;
+            border-bottom: 2px solid var(--bg-light);
+            padding-bottom: 1.5rem;
+        }
+
+        .article-header h1 {
+            color: var(--primary);
+            font-size: 2.75rem;
+            line-height: 1.2;
+            margin-bottom: 0.75rem;
+        }
+
+        .article-meta {
+            color: #6b7280;
+            font-size: 0.95rem;
+        }
+
+        /* Body Copy Typography Styles */
+        .article-content p {
+            font-size: 1.1rem;
+            color: #374151;
+            margin-bottom: 1.5rem;
+            text-align: justify;
+        }
+
+        .article-content h2 {
+            color: var(--primary);
+            font-size: 1.75rem;
+            margin: 2.5rem 0 1rem 0;
+        }
+
+        .article-content blockquote {
+            background-color: var(--bg-light);
+            border-left: 4px solid var(--secondary);
+            padding: 1rem 1.5rem;
+            margin: 2rem 0;
+            font-style: italic;
+            color: #4b5563;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #0b1f33;
+            color: #9ca3af;
+            text-align: center;
+            padding: 1.5rem;
+            font-size: 0.85rem;
+            margin-top: 8rem;
+        }
+
+        /* Responsive Breakpoints */
+        @media (max-width: 768px) {
+            nav { flex-direction: column; }
+            nav ul { margin-top: 1rem; }
+            .article-header h1 { font-size: 2.25rem; }
+            .article-container { margin: 2rem auto; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Main Navigation Header -->
+    <nav>
+        <div class="logo">BRANDON KIRBY, MBA</div>
+        <ul>
+            <li><a href="blog.html">Brandon's Blog</a></li>
+            <li><a href="index.html#services">Services</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    
+    <main class="article-container">
+        
+        <a href="blog.html" class="back-link">← Back to Blog</a>
+
+        <header class="article-header">
+            <h1>Inflation, Interest Rates, and Investments</h1>
+            <div class="article-meta">Published: July 2026 | Category: Macroeconomics</div>
+        </header>
+
+        <div class="article-content">
+           
+<p>People in the financial sector have an unfortunate tendency to make liberal use of unfamiliar vocabulary. Part of me thinks the worst and suspects it’s done for branding purposes - they want to present themselves as sophisticated. Nowhere is this more pronounced than when discussing inflation and interest rates.</p>
+​
+<p>Inflation is one of the easier concepts to understand in the economy. It works in two ways. When I was a child, my first business was a lemonade stand. Imagine an entire economy consisting of 100 lemonade cups and $100. The lemonade cups will sell for $1. If an additional $100 is added to the economy, totalling $200 with 100 cups, the price of the cups will rise to $2. Inflation is money creation and little else.</p>
+​
+<p>This is the first mode of inflation. Of course, an entire economy is more complex than lemonade cups, but that principle never goes away regardless of how additionally complex it becomes. The supply of money is the key determining factor of price fluctuation. As the money supply increases, the value of money decreases.</p>
+​
+<p>There is a second way inflation creeps in. What if my younger self sold the lemonade at $1 per cup, but an additional $100 made its way into the economy but I have the same stock of lemonade - I can simply put half the lemonade in each cup to sell an additional 100 cups. As diabolical as it is, this is another frequent way in which inflation grips us - we see fewer and fewer chips in a bag of chips. Money purchases fewer things. As the money supply increases, the value of money decreases.</p>
+​
+<p>Again, lemonade is not the entirety of the economy, but this materializes in housing, for example. Rents might plateau if average wages can no longer afford price hikes, but the quality of the living arrangements can degrade over time. Rents are the same, but purchasing lower quality housing.</p>
+​
+<p>If the Bank of Canada increases the supply of money in the Canadian economy, inflation is on its way. Investors need to be on the lookout for this. The same can be said of the FED in the US, the ECB in the EU, or the Bank of England for the UK In the short-run, there are supply chain shocks like a natural disaster, inflating prices, and demand shocks like a minimum wage increase, that can alter prices, which will cause adjustments over time and be canceled out. In the long run, the money supply is nearly the exclusive driver of inflation.</p>
+​
+<p>The oft-repeated line of reasoning that grocery store prices are increasing because of corporate greed as the sole variable doesn’t add up mathematically. Grocery store owners haven’t become greedier in the last few years; in fact, their profit margins are at 3% when grocery store prices have gone up by much more than 3%. The money supply is what has increased, causing the grocery store prices to rise.</p>
+​
+<p>“Inflation is always and everywhere a monetary phenomenon”. -Milton Friedman</p>
+​
+<h2>Interest Rates?</h2>
+​
+<p>If national interest rates are lowered, and the cost of borrowing money is cheaper, meaning it can be easily repaid even with lower incomes, more people qualify for mortgages, auto loans, personal loans, business loans, home equity lines of credit, and personal lines of credit. Banks create new money to be added to the economy when these loans are issued.
+​
+If more people qualify for mortgages, the demand for housing goes up. If ten people wish to buy a house and there’s only one house on the market, housing prices increase. If there are ten houses available and only one buyer, housing prices decrease.
+​
+Lower interest rates mean inflationary pressure. Higher interest rates mean deflationary pressure. Lower interest rates means the value of money decreases, higher interest rates mean the value of money will increase.</p>
+​
+<h2>Government Spending?</h2>
+​
+<p>Sometimes governments themselves are the cause of inflation. When tax revenues are lower than government expenses, they run deficits. Sometimes they solve this by issuing bonds and borrowing money from whoever is willing to lend it. Other times, they do something called monetizing the debt, meaning they just get the Bank of Canada to increase the money supply, allowing them to spend more. This means the government is financing the deficit through inflation.
+​
+Even with government spending, as the money supply increases, the value of money decreases.</p>
+​
+<h2>What To Do About It?</h2>
+​
+<p>Inflation will eat away at your finances, your quality of life, and your ability to save for the future - but the good news is that you can protect yourself.
+​
+As the money supply increases, the value of money decreases, and therefore the things that money buys also go up in value. Housing, and commodities like gold, wheat, corn, copper, lumber, increase in value. Allocating a small percentage of a portfolio - 10% is the standard - the value of this 10% increases as inflation sets in.
+​
+Having 10% of a portfolio in something like gold means that as the stocks increase in value, more gold can be purchased, if the gold increases in value, some of it can be sold off to purchase stocks - it stabilizes a portfolio from currency fluctuations.
+​
+As the value of money decreases, the value of your portfolio can remain constant. This is how to deal with inflation.</p>
+
+
+           
+        </div>
+
+    </main>
+
+    <!-- Universal Footer -->
+    <footer>
+        <p>&copy; 2026 Brandon Kirby. All Rights Reserved.</p>
+        <p style="font-size: 0.75rem; margin-top: 0.5rem; color: #6b7280;">Disclaimer: Licensing credentials via IFIC and LLQP framework. Specific financial strategies and product availabilities are subject to provincial regulatory guidelines.</p>
+    </footer>
+
+</body>
+</html>
