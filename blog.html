@@ -4,11 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brandon's Blog | Macro Insights & Finance</title>
-    
-    <!-- Instant Redirect to Index Contact Section -->
-    <script>
-        window.location.href = "index.html#contact";
-    </script>
 
     <style>
         :root {
@@ -41,18 +36,19 @@
         .blog-container { max-width: 800px; margin: 4rem auto; padding: 0 2rem; }
         .blog-header { margin-bottom: 3rem; border-bottom: 2px solid var(--bg-light); padding-bottom: 1rem; }
         .blog-header h1 { color: var(--primary); font-size: 2.5rem; }
+        .blog-header p { color: #4b5563; font-size: 1.1rem; margin-top: 0.5rem; }
         
-        .post-preview { margin-bottom: 3rem; }
-        .post-title { color: var(--primary); text-decoration: none; font-size: 1.75rem; font-weight: bold; }
+        .post-preview { margin-bottom: 3.5rem; }
+        .post-title { color: var(--primary); text-decoration: none; font-size: 1.75rem; font-weight: bold; display: block; margin-bottom: 0.5rem; }
         .post-title:hover { color: var(--secondary); }
-        .post-meta { color: #6b7280; font-size: 0.875rem; margin: 0.5rem 0 1rem 0; }
+        .post-meta { color: #6b7280; font-size: 0.875rem; margin-bottom: 1rem; }
+        .post-excerpt { color: #374151; font-size: 1.05rem; }
         
         footer { background-color: #0b1f33; color: #9ca3af; text-align: center; padding: 1.5rem; font-size: 0.85rem; margin-top: 8rem; }
     </style>
 </head>
 <body>
 
-    <!-- Fallback Content in case redirect is delayed or JS is disabled -->
     <nav>
         <div class="logo">BRANDON KIRBY, MBA</div>
         <ul>
@@ -66,8 +62,22 @@
     <main class="blog-container">
         <div class="blog-header">
             <h1>Brandon's Blog</h1>
-            <p>Redirecting you to our contact page...</p>
+            <p>Macro Insights, Interest Rate Trends & Tax Strategy for Canadians</p>
         </div>
+
+        <!-- Sample Blog Post 1 -->
+        <article class="post-preview">
+            <a href="#" class="post-title">Understanding the Trajectory of Structural Inflation</a>
+            <div class="post-meta">Published: July 2026 | Category: Macroeconomics</div>
+            <p class="post-excerpt">An analysis of modern macroeconomic indicators, structural shifts in supply chains, and what persistent interest rate environments mean for long-term purchasing power preservation.</p>
+        </article>
+
+        <!-- Sample Blog Post 2 -->
+        <article class="post-preview">
+            <a href="#" class="post-title">Tax Efficiency Metrics Every Investor Should Monitor</a>
+            <div class="post-meta">Published: June 2026 | Category: Tax Strategy</div>
+            <p class="post-excerpt">Moving beyond simple corporate product selection. How leveraging strict logical frameworks and tracking structural cash flows can insulate personal net worth from unnecessary tax drag.</p>
+        </article>
     </main>
 
     <footer>
