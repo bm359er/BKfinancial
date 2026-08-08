@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canada First Investing | Brandon's Blog</title>
+   
+    <!-- Open Graph / Facebook (Now correctly placed inside the head) -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://brandonkirbyfinancial.com/canada-first.html">
+    <meta property="og:title" content="Canada First Investing | Brandon Kirby, MBA">
+    <meta property="og:description" content="Grow Canada Grow">
+    <!-- RECOMENDED: Change this path to your live website domain asset path if possible -->
+    <meta property="og:image" content="https://brandonkirbyfinancial.com/canada-first-me.png">
+    <meta property="og:image:secure_url" content="https://brandonkirbyfinancial.com/canada-first-me.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    <!-- X / Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://brandonkirbyfinancial.com/canada-first.html">
+    <meta name="twitter:title" content="Canada First Investing | Brandon Kirby, MBA">
+    <meta name="twitter:description" content="Grow Canada Grow">
+    <meta name="twitter:image" content="https://brandonkirbyfinancial.com/canada-first-me.png">
+
+
+
+<style>
+        :root {
+            --primary: #0f2b46;
+            --secondary: #1d4ed8;
+            --text-dark: #1f2937;
+            --text-light: #f9fafb;
+            --bg-light: #f3f4f6;
+            --accent: #059669;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            color: var(--text-dark);
+            line-height: 1.6;
+            background-color: #ffffff;
+        }
+
+        /* Navigation - Kept identical to your main site layout */
+        nav {
+            background-color: var(--primary);
+            color: var(--text-light);
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+
+        nav ul li {
+            margin-left: 2rem;
+        }
+
+        nav ul li a {
+            color: var(--text-light);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #93c5fd;
+        }
+
+        /* Article Structure */
+        .article-container {
+            max-width: 800px;
+            margin: 4rem auto;
+            padding: 0 2rem;
+        }
+
+        .back-link {
+            display: inline-block;
+            color: var(--secondary);
+            text-decoration: none;
+            font-weight: 500;
+            margin-bottom: 2rem;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+            color: var(--primary);
+        }
+
+        .article-header {
+            margin-bottom: 2.5rem;
+            border-bottom: 2px solid var(--bg-light);
+            padding-bottom: 1.5rem;
+        }
+
+        .article-header h1 {
+            color: var(--primary);
+            font-size: 2.75rem;
+            line-height: 1.2;
+            margin-bottom: 0.75rem;
+        }
+
+        .article-meta {
+            color: #6b7280;
+            font-size: 0.95rem;
+        }
+
+        /* Body Copy Typography Styles */
+        .article-content p {
+            font-size: 1.1rem;
+            color: #374151;
+            margin-bottom: 1.5rem;
+            text-align: justify;
+        }
+
+        .article-content h2 {
+            color: var(--primary);
+            font-size: 1.75rem;
+            margin: 2.5rem 0 1rem 0;
+        }
+
+        .article-content blockquote {
+            background-color: var(--bg-light);
+            border-left: 4px solid var(--secondary);
+            padding: 1rem 1.5rem;
+            margin: 2rem 0;
+            font-style: italic;
+            color: #4b5563;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #0b1f33;
+            color: #9ca3af;
+            text-align: center;
+            padding: 1.5rem;
+            font-size: 0.85rem;
+            margin-top: 8rem;
+        }
+
+        /* Responsive Breakpoints */
+        @media (max-width: 768px) {
+            nav { flex-direction: column; }
+            nav ul { margin-top: 1rem; }
+            .article-header h1 { font-size: 2.25rem; }
+            .article-container { margin: 2rem auto; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Main Navigation Header -->
+    <nav>
+        <div class="logo">BRANDON KIRBY, MBA</div>
+        <ul>
+            <li><a href="blog.html">Brandon's Blog</a></li>
+            <li><a href="index.html#services">Services</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    
+    <main class="article-container">
+        
+        <a href="blog.html" class="back-link">← Back to Blog</a>
+
+        <header class="article-header">
+            <h1>The $20 Burrito Debate</h1>
+            <div class="article-meta">Published: July 2026 | Category: Macroeconomics</div>
+        </header>
+
+        <div class="article-content">
+           
+<p>I never miss an opportunity to discuss either inflation or burritos - this debate has me excited. What happens when a young person opts to buy Starbucks stock instead of Starbucks lattes? What were median incomes and median rents in 1985 vs. today? Who has it easier - Gen Z with burritos delivered to their doorstep, or Boomers with affordable housing?</p>
+
+<p>There are two sides. One claims that older generations had it rough. Their houses were smaller, which is why they were cheaper. Young people can’t afford a home because of daily lattes from Starbucks and $20 burritos ordered off Skip the Dishes or DoorDash, when their generation lived off ramen noodles.</p>
+
+<p>The other side claims that younger generations’ wages haven’t kept up with the cost of housing, which is why they can’t afford a house.</p> 
+
+<p>Not only do they both have a point, they’re both right. It is the latte. It is the DoorDash burrito. And wages haven’t kept up with inflation.</p> 
+
+<p>The price of a regular latte at the nearest Starbucks was $6.84. But rather than buying a latte every day, it is instead invested into an S&P 500 ETF, after 35 years that amounts to $759,000. A weekly DoorDash burrito, which came to a price of $20.47 (including taxes and a 15% tip), amounted to $336,000. Altogether, it amounts to $1.1 million for the young person entering the workforce, to forego these niceties before retirement. The purchasing power could be altered over time, depending on if burritos and lattes keep pace with inflation writ large.</p>   
+
+<p>A more fun thought experiment was to travel back in time, and take the historical price of a latte from Starbucks, and buy Starbucks stock itself. This amounts to $1.8 million today. Burritos are a bit more difficult, but I took Chipotle’s annual prices since 1993, and invested in Chipotle stock year over year, (which didn’t go public until 2006, but annualized rate of return is 19.5%), and the result was $852,000. A total value of $2.6 million.</p> 
+
+<p>You’re better off buying Starbucks stock than you are the latte, and if a young person makes that sacrifice along with burritos, it amounts to significant changes in poverty status.</p> 
+
+<p>Onto the boomers. I’ll arbitrarily choose 1985, the year my parents bought their first house, and it came after the recession of the early 1980s. Median incomes were $34,000. Median house prices were $102,000. With their outrageous 11.25% interest rates, this puts monthly mortgage payments at $1,000. Which gives them a bare bones monthly cost going toward housing at 35%.</p> 
+
+<p>In today’s market, the median income is $77,000. Median housing costs are $657,700. This leaves the bare bones shelter costs at $3800. This leaves the average monthly cost for housing at a whopping 59%.</p> 
+
+<p>As a former mortgage broker, 35% is a healthy ratio that allows for reasonable family budgeting, 59% is out of the range of acceptability for most lenders. Young people have been priced out of the market. The cost of rents is even more skewed toward boomers, renting was cheap then and expensive now.</p>
+
+<p>I’m not Dr. Phil, but it seems to me as though life has been miserable to Gen Z and they’re turning to creature comforts which is exasperating the problem. The problem is the latte, and the problem is housing prices. Outside of direct contradictions, most debates have truth to both sides.</p> 
+
+           
+        </div>
+
+    </main>
+
+    <!-- Universal Footer -->
+    <footer>
+        <p>&copy; 2026 Brandon Kirby. All Rights Reserved.</p>
+        <p style="font-size: 0.75rem; margin-top: 0.5rem; color: #6b7280;">Disclaimer: Licensing credentials via IFIC and LLQP framework. Specific financial strategies and product availabilities are subject to provincial regulatory guidelines.</p>
+    </footer>
+
+</body>
+</html>
