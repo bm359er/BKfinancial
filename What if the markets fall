@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inflation, Interest Rates, and Investments | Brandon's Blog</title>
+    <style>
+        :root {
+            --primary: #0f2b46;
+            --secondary: #1d4ed8;
+            --text-dark: #1f2937;
+            --text-light: #f9fafb;
+            --bg-light: #f3f4f6;
+            --accent: #059669;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            color: var(--text-dark);
+            line-height: 1.6;
+            background-color: #ffffff;
+        }
+
+        /* Navigation - Kept identical to your main site layout */
+        nav {
+            background-color: var(--primary);
+            color: var(--text-light);
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+
+        nav ul li {
+            margin-left: 2rem;
+        }
+
+        nav ul li a {
+            color: var(--text-light);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #93c5fd;
+        }
+
+        /* Article Structure */
+        .article-container {
+            max-width: 800px;
+            margin: 4rem auto;
+            padding: 0 2rem;
+        }
+
+        .back-link {
+            display: inline-block;
+            color: var(--secondary);
+            text-decoration: none;
+            font-weight: 500;
+            margin-bottom: 2rem;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+            color: var(--primary);
+        }
+
+        .article-header {
+            margin-bottom: 2.5rem;
+            border-bottom: 2px solid var(--bg-light);
+            padding-bottom: 1.5rem;
+        }
+
+        .article-header h1 {
+            color: var(--primary);
+            font-size: 2.75rem;
+            line-height: 1.2;
+            margin-bottom: 0.75rem;
+        }
+
+        .article-meta {
+            color: #6b7280;
+            font-size: 0.95rem;
+        }
+
+        /* Body Copy Typography Styles */
+        .article-content p {
+            font-size: 1.1rem;
+            color: #374151;
+            margin-bottom: 1.5rem;
+            text-align: justify;
+        }
+
+        .article-content h2 {
+            color: var(--primary);
+            font-size: 1.75rem;
+            margin: 2.5rem 0 1rem 0;
+        }
+
+        .article-content blockquote {
+            background-color: var(--bg-light);
+            border-left: 4px solid var(--secondary);
+            padding: 1rem 1.5rem;
+            margin: 2rem 0;
+            font-style: italic;
+            color: #4b5563;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #0b1f33;
+            color: #9ca3af;
+            text-align: center;
+            padding: 1.5rem;
+            font-size: 0.85rem;
+            margin-top: 8rem;
+        }
+
+        /* Responsive Breakpoints */
+        @media (max-width: 768px) {
+            nav { flex-direction: column; }
+            nav ul { margin-top: 1rem; }
+            .article-header h1 { font-size: 2.25rem; }
+            .article-container { margin: 2rem auto; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Main Navigation Header -->
+    <nav>
+        <div class="logo">BRANDON KIRBY, MBA</div>
+        <ul>
+            <li><a href="blog.html">Brandon's Blog</a></li>
+            <li><a href="index.html#services">Services</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    
+    <main class="article-container">
+        
+        <a href="blog.html" class="back-link">← Back to Blog</a>
+
+        <header class="article-header">
+            <h1>What if the Markets Fall?</h1>
+            <div class="article-meta">Published: October 2026 | Category: Macroeconomics</div>
+        </header>
+
+        <div class="article-content">
+           
+<p>The year was 2004. I passed my investment funds course, received my investment license, turned 19, and began my career in finance. George W. Bush was president, Donald Trump was a reality show host, gas was cheap, groceries were affordable, no one ever heard of social media, smartphones, or COVID, and little did we know that in four years, in 2008, the worst recession in our lifetimes, total market collapse, and absolutely nothing would change.</p>
+​
+<p>It was the largest recession of any of our lifetimes. If you bought an S&P 500 ETF at the worst possible time, just before the collapse, your rate of return would be 10.95% over 19 years. If you invested $100,000 in 2007, the worst year to invest in history, it would be worth $720,000 today. No one can promise this rate of return; this is just what it did historically. Nobody knows what the markets will do tomorrow; they lost 50% in 2008, but in the long run, they averaged out to 11% annually since then.</p>
+​
+<p>The show goes on. The sun comes up, and the sun goes down, the tides come in, and the tides go out, and the show goes on. The worst recession in our lifetimes didn’t impact investment strategies in the slightest. Investment strategies offering significantly more than this carry excessive risk; investment strategies offering less than this don’t produce meaningful returns but don’t come with volatility.</p>
+​
+<p>The markets produced 11% as a rate of return, and they’ve been doing this since we’ve been measuring them. Investment money doubled every seven years. Nothing has changed. This is the same wisdom my grandfather dealt with 70 years ago. Cryptocurrency didn’t change it. COVID didn’t change it. Presidents dealing with dementia or extreme narcissism haven’t changed it. And smartphones might cause Gen Z attention issues, but they haven’t changed the markets.</p>
+​
+<p>If you eat three square the markets will continue. The grocery stores will make money when you buy the groceries for the three square. When you swipe your debit or credit card to buy the groceries, the banks will make money. When you turn your stove on to cook the meals, the energy companies will make money. If you pay rent or a mortgage to own the kitchen, the banks will again make money. If you own these companies, you will share in their profits, and they will only operate if there are profits. The tides come up, and the tides go out - the show goes on.</p>
+​
+<p>The why is important. People are only willing to pay so much for corporate earnings. Typically this averages around $15 for every $1 of corporate earnings. The price of a share of stock is typically 15 times more than its earnings per share. At this ratio, markets produce, grow, innovate, with roughly the same ratios they have for the last hundred years of measuring markets.</p>
+​
+<p>If you had invested $100, in seven years, on average, it would be worth $200. No one knows what the rate of return will be in seven years; it’s just historically 11% annually. Sometimes more, sometimes less. If you invest, as in 2007, you might lose 50% the next year - people did in 2008. People will still eat three square, and the markets will continue to move. People will continue to produce.</p>
+​
+<p>This is how the markets have worked regardless of who is president, regardless of the next technological innovation, regardless of wars being fought; the markets produced 11%. If someone promises you more, it’s wild speculation. If someone is promising you less, demand more. The markets have produced 11% in the long run.</p>
+
+
+
+
+           
+        </div>
+
+    </main>
+
+    <!-- Universal Footer -->
+    <footer>
+        <p>&copy; 2026 Brandon Kirby. All Rights Reserved.</p>
+        <p style="font-size: 0.75rem; margin-top: 0.5rem; color: #6b7280;">Disclaimer: Licensing credentials via IFIC and LLQP framework. Specific financial strategies and product availabilities are subject to provincial regulatory guidelines.</p>
+    </footer>
+
+</body>
+</html>
